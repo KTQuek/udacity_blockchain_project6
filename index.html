@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fair Trade Coffee</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;"><strong>Trade Coffee</strong></h1>
+        <hr>
+        <p style="text-align: center;">Prove the authenticity of coffee using the Ethereum blockchain.</p>
+    </div>
+
+
+    <div class="container_body">
+        <div class="left_container">
+                <div class="form-group">
+                        <h2><strong>Transfer of DApp ownership by current owner</strong></h2>
+                        <h3>Address of New DApp Owner</h3>
+            
+                        <input type="text" id="newOwner" name="newOwner" value="0xBd3Ff2E3adEd055244d66544c9c059Fa0851Da44" size="50"><br>
+        
+                        <div class=button-div>
+                            <button class="btn-fetchOne" id="button" type="button" data-id="20">Transfer Ownership</button>
+                        </div>
+                    </div>
+        
+                    <div class=form-break></div>    
+                  
+                    <div class="form-group">
+                        <h2><strong>Registration of Roles by DApp Owner</strong></h2>
+                        <h3>Add New Farmer</h3>       
+                        
+                        <input type="text" id="newFarmer" name="newFarmer" value="0x018c2dabef4904ecbd7118350a0c54dbeae3549a" size="50"><br>
+        
+                        <div class=button-div>
+                            <button class="btn-fetchOne" id="button" type="button" data-id="21">Add New Farmer</button>
+                        </div>
+        
+                        <br>
+                        <h3>Add New Distributor</h3>
+                       
+                        <input type="text" id="newDistributor" name="newDistributor" value="0xce5144391b4ab80668965f2cc4f2cc102380ef0a" size="50"><br>
+        
+                        <div class=button-div>
+                            <button class="btn-fetchOne" id="button" type="button" data-id="22">Add New Distributor</button>
+                        </div>
+        
+                        <br>
+                        <h3>Add New Retailers</h3>        
+                       
+                        <input type="text" id="newRetailer" name="newRetailer" value="0x460c31107dd048e34971e57da2f99f659add4f02" size="50"><br>
+        
+                        <div class=button-div>
+                            <button class="btn-fetchOne" id="button" type="button" data-id="23">Add New Retailer</button>
+                        </div>
+        
+                        <br>
+                        <h3>Add New Consumer</h3>
+        
+                        <input type="text" id="newConsumer" name="newConsumer" value="0xd37b7b8c62be2fdde8daa9816483aebdbd356088" size="50"><br>
+        
+                        <div class=button-div>
+                            <button class="btn-fetchOne" id="button" type="button" data-id="24">Add New Consumer</button>
+                        </div>
+        
+                        <br>      
+                    </div>
+        
+                    <div class=form-break></div>
+
+                    <div class="form-group">
+                            <h2><strong>Farm Details</strong></h2>
+                            <h3>Farmer ID</h3>
+                
+                            <input type="text" id="originFarmerID" name="originFarmerID" value="0x018c2dabef4904ecbd7118350a0c54dbeae3549a"
+                                size="50"><br>
+                
+                            <h3>Farm Name</h3>    
+                            <input type="text" id="originFarmName" name="originFarmName" value="John Doe"><br>
+                
+                            <h3>Farm Information</h3>
+                            <input type="text" id="originFarmInformation" name="originFarmInformation" value="Yarra Valley"><br>
+                
+                            <h3>Farm Latitude</h3>
+                            <input type="text" id="originFarmLatitude" name="originFarmLatitude" value="-38.239770"><br>
+                
+                            <h3>Farm Longitude</h3>
+                            <input type="text" id="originFarmLongitude" name="originFarmLongitude" value="144.341490"><br>
+                            <br>
+                
+                            <button class="btn-harvest" id="button" type="button" data-id="1">Harvest</button>
+                            <button class="btn-process" id="button" type="button" data-id="2">Process</button>
+                            <button class="btn-pack" id="button" type="button" data-id="3">Pack</button>
+                            <button class="btn-forsale" id="button" type="button" data-id="4">ForSale</button>
+                        </div>
+                
+                        <div class=form-break></div>
+                       
+                        <div class="form-group">
+                            <h2><strong>Product Details</strong></h2>
+                            <h3> Product Notes</h3>
+                            <input type="text" id="productNotes" name="productNotes" value="Best beans for Espresso" size="60"><br>
+                
+                            <h3> Product Price</h3>
+                            <input type="number" id="productPrice" name="productPrice" value=1>ETH<br>
+                
+                            <h3>Distributor ID</h3>
+                            <input type="text" id="distributorID" name="distributorID" value="0xce5144391b4ab80668965f2cc4f2cc102380ef0a"
+                                size="50">
+                            <br>
+                
+                            <h3>Retailer ID</h3>
+                            <input type="text" id="retailerID" name="retailerID" value="0x460c31107dd048e34971e57da2f99f659add4f02"
+                                size="50"><br>
+                
+                            <h3>Customer ID</h3>    
+                            <input type="text" id="consumerID" name="consumerID" value="0xd37b7b8c62be2fdde8daa9816483aebdbd356088"
+                                size="50"><br>
+                            <br>
+                
+                            <button class="btn-buy" id="button" type="button" data-id="5">Buy</button>
+                            <button class="btn-ship" id="button" type="button" data-id="6">Ship</button>
+                            <button class="btn-receive" id="button" type="button" data-id="7">Receive</button>
+                            <button class="btn-purchase" id="button" type="button" data-id="8">Purchase</button>
+                        </div>
+                
+                        <div class=form-break></div>
+                        <hr>           
+            
+        </div>
+
+
+        <div class="right_container">
+
+            <div class="form-group-right">
+                        <h4><strong>Product Overview</strong><span class="sm"><em>  (Note: Zoom-out in your browser if this right panel is obscured.)</em></span></h4>
+                        <!-- <h3> SKU</h3> -->
+                        <label>SKU</label>
+                        <input class="input-fetch" type="number" id="sku" name="sku" value=1>
+            
+                        <!-- <h3>UPC</h3> -->
+                        <label>UPC</label>
+                        <input class="input-fetch" type="number" id="upc" name="upc" value=1><br />
+            
+                        <div class=button-div>
+                            <button class="btn-fetchOne" id="button" type="button" data-id="9">Fetch Data 1</button>
+                            <button class="btn-fetchTwo" id="button" type="button" data-id="10">Fetch Data 2</button>
+                        </div>
+            </div>
+
+            <hr> 
+
+            <div class="form-group-right">
+                        <h4><strong>Information and Messages</strong></h4>
+                            <ul id="ftc-item">
+                                            
+            </div>
+            
+            <hr> 
+
+            <div class="form-group-right">
+                <!-- <h2 class="h2-right">Transaction History<span id="ftc-history"></span></h2> -->
+                <h4><strong>Transaction History</strong></h4>
+                    <ul id="ftc-events">
+                        <!-- Events will appear here from app.js -->
+                    </ul>
+            </div> 
+
+            <div class=form-break></div>
+            <hr>
+
+        </div>
+
+    </div>
+    
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="js/web3.min.js"></script> -->
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

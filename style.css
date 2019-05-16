@@ -1,0 +1,128 @@
+body {
+  background-color:#fff;
+  padding: 1em;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  color: #212121;
+}
+h1, h2 {
+  color: #1f1f20ee;
+}
+
+h3 {
+  color: #4d4e53ee;
+}
+
+h4 {
+  color: #1f1f20ee;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container_body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.left_container {
+  position: absolute;
+  width: 50%;
+  left: 50px;
+  margin: 0 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.right_container {
+  position: fixed;
+  width: 50%;
+  right: 5px;
+  margin: 0 10px;
+}
+
+.right_container_fixed {
+  position: absolute;
+  width: 45%;
+  right: 10px;
+  margin: 250px 10px 10px 10px;
+
+}
+
+.bold { 
+  font-weight: bolder;
+}
+
+input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 5px 0;
+}
+
+.input-fetch {
+  width: 60px;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    background-color: #00BCD4;
+    font-size: 16px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.sell { 
+  background-color: white;
+  color: #D1C4E9;
+}
+
+.ftc-intro {
+  background-color:#0097A7;
+  color:white;
+  width:100%;
+  padding:20px;
+}
+
+.form-group {
+  background-color:#0097A7;
+  color:black;
+  width:100%;
+  padding:15px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.form-group-right {
+  background-color:#0097A7;
+  color:black;
+  width:100%;
+  margin: 0%;
+  padding:2px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.sm{
+  font-size: 10px;
+}
+
+.form-break {
+  background-color:#fff;
+  color:white;
+  width:100%;
+  padding:2px;
+}
+
+.horizontal-rule {
+  background-color:#BDBDBD;
+}
